@@ -1,0 +1,113 @@
+body {
+  /* Your gradient background CSS here */
+  background: linear-gradient(to bottom, white, rgb(241, 241, 169));
+}
+
+.flex-container {
+    display: flex;
+  }
+  
+  .left-container {
+    flex: 1;
+    padding-top: 7%;
+  }
+  
+  .right-container {
+    flex: 2;
+    padding-left: 20px; /* Add some space between the logo/text and the image */
+  }
+  
+.cri-logo
+{
+  width: 45%;
+ padding-left: 10%;
+}  
+
+.ol{
+  padding-left: 2%;
+}
+
+.insta
+{
+  padding-left: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cri-image1
+{
+  transform: scale(0.8);
+}
+.value
+{
+  padding-left: 28%;
+  padding-bottom: 1%;
+
+}
+.red
+{
+  height: 1px;
+ width: 97%;
+ position: absolute;
+ left: 1%;
+  background-color: rgb(195, 33, 33);
+}
+.sys
+{
+  position: absolute;
+  left: 30%;
+  padding-top: 1%;
+
+}
+.gov
+{
+  font-weight: 500;
+}
+.cr
+{
+  font-weight: 500;
+ 
+}
+.che
+{
+  padding-top: 4%;
+  font-size: small;
+  padding-left: 10%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pet
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  margin-left: 30%; 
+
+}
+
+.red-background
+{
+  color: red; /* Text color */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  background-color: #ed2a2a;
+  margin-top: 3%;
+  color: white;
+}
+
+.footer-item {
+  margin: 0 10px;
+}
+
+.footer-item img {
+  height: 30px;
+}
+
+#cri
+{
+  position: relative;
+  left: 20%;
+  top: 1cm;
+}
